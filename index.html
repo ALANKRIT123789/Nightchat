@@ -1,73 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Adults Only</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<title>NightChat 🔞</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+  margin: 0;
+  background: #0b0b0b;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
 
-  <style>
-    body {
-      background-color: #000;
-      color: #fff;
-      font-family: Arial, sans-serif;
-      text-align: center;
-      padding: 60px 20px;
-    }
+header {
+  text-align: center;
+  padding: 20px;
+  background: #000;
+  border-bottom: 1px solid #222;
+}
 
-    h1 {
-      font-size: 34px;
-      margin-bottom: 15px;
-    }
+header h1 {
+  color: #e60073;
+  margin: 0;
+}
 
-    p {
-      font-size: 18px;
-      opacity: 0.85;
-      line-height: 1.5;
-    }
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 15px;
+  padding: 15px;
+}
 
-    .btn {
-      display: inline-block;
-      margin-top: 35px;
-      padding: 16px 40px;
-      background-color: #ff0000;
-      color: #fff;
-      text-decoration: none;
-      font-size: 22px;
-      border-radius: 6px;
-      font-weight: bold;
-    }
+.card {
+  background: #111;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #222;
+}
 
-    .btn:hover {
-      background-color: #cc0000;
-    }
+.card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
 
-    .warning {
-      margin-top: 50px;
-      font-size: 14px;
-      opacity: 0.6;
-    }
-  </style>
+.card .info {
+  padding: 10px;
+}
+
+.card h3 {
+  font-size: 14px;
+  margin: 0 0 8px;
+}
+
+.card a {
+  display: block;
+  text-align: center;
+  padding: 8px;
+  background: #e60073;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.card a:hover {
+  background: #ff1a8c;
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+  color: #777;
+}
+</style>
 </head>
 
 <body>
 
-  <p style="font-size:14px; opacity:0.6;">
-    By entering you confirm that you are 18+ years old
-  </p>
+<header>
+  <h1>NightChat 🔞</h1>
+  <p>Private • Verified • Adults Only</p>
+</header>
 
-  <h1>🔞 Adults Only</h1>
+<div class="container">
 
-  <p>
-    Private chats • Real connections<br>
-    No credit card required
-  </p>
-
-  <!-- 🔴 CHANGE THIS LINK ONLY -->
-  <a class="btn" href="https://google.com">Enter Now</a>
-
-  <div class="warning">
-    You must be 18+ to continue. All models are verified adults.
+  <!-- CARD 1 -->
+  <div class="card">
+    <img src="https://picsum.photos/400/600?1">
+    <div class="info">
+      <h3>Exclusive Private Session</h3>
+      <a href="https://example.com" target="_blank">Unlock Content</a>
+    </div>
   </div>
+
+  <!-- CARD 2 -->
+  <div class="card">
+    <img src="https://picsum.photos/400/600?2">
+    <div class="info">
+      <h3>Late Night Chat</h3>
+      <a href="https://example.com" target="_blank">Watch Now</a>
+    </div>
+  </div>
+
+  <!-- CARD 3 -->
+  <div class="card">
+    <img src="https://picsum.photos/400/600?3">
+    <div class="info">
+      <h3>18+ Locked Clip</h3>
+      <a href="https://example.com" target="_blank">Enter</a>
+    </div>
+  </div>
+
+  <!-- CARD 4 -->
+  <div class="card">
+    <img src="https://picsum.photos/400/600?4">
+    <div class="info">
+      <h3>Trending Tonight</h3>
+      <a href="https://example.com" target="_blank">Unlock</a>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  © 2026 NightChat • 18+ Only • All links redirect to third‑party sites
+</footer>
 
 </body>
 </html>
